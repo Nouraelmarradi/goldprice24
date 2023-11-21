@@ -1,0 +1,139 @@
+h2{
+    text-align: center;
+}
+.countries{
+justify-content: right;
+flex-direction: row;
+}
+
+.color a{
+    text-decoration: none;
+    color:white
+}
+
+.color{
+    text-align: right;
+    line-height: 40px;
+    font-size: medium;
+    width: 100%;
+    color: white !important;
+text-decoration: none;
+    margin-bottom: -5px;
+    background-color: #fdb202;
+    padding: 3px 10px 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px #ECECEC solid;;
+}
+
+
+.a{
+    text-align:right ;
+    justify-content: right;
+
+
+}
+
+
+
+.countries .ul .li {
+    margin: 0;
+    justify-content: baseline;
+    text-align: right;
+    padding: 5px 0 10px;
+    border-bottom: 1px dashed #EAEAEA;
+    width: 100%;
+
+}
+.ul {
+    text-align:right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+    
+.ul .li .a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 90%;
+}
+.menu{
+    font-family:"Chivo Mono",monospace;
+    display: flex;
+    gap: 72px;
+}
+.menu .li{
+    list-style: none;
+}
+.button{
+    border: none;
+    list-style: none;
+}
+
+.menu:hover{
+    color: #30edf4;
+}
+.menu:hover li a:not(:hover){
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+.img {
+    height: 25px;
+    width: 30px;
+        overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.countries .ul .li .img {
+    padding: 3px 0 0 8px;
+    margin-top: -5px;
+    text-align: right;
+}
+
+    
+title1{
+    float: right;
+}
+
+/**.table1{
+    place-content: right;
+}
+caption {
+    display: table-caption;
+    text-align: -webkit-center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 2px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  tr:hover {background-color: #b1b134;}
+
+
+**/
+@media screen and (max-width: 960px) {
+  
+    
+    .img {
+        height: 20px;
+        width: 26px;
+            overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    .ul .li .a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 90%;
+    }
+     
+    }
+  

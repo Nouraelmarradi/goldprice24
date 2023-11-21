@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*font-family: 'PT Sans', sans-serif;*/
+}
+/* App.css */
+
+/* Styles for the header and navigation bar */
+.App {
+  background-color: #f8f8f8;
+}
+
+/* Style for the NationLists section */
+.NationLists {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Switch (content) section */
+.Switch {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 960px) {
+  
+  }
