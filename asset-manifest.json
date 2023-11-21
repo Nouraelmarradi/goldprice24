@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/goldprice24/static/css/main.a1508167.css",
-    "main.js": "/goldprice24/static/js/main.f219a958.js",
+    "main.js": "/goldprice24/static/js/main.82a1c7fc.js",
     "static/js/787.574895f5.chunk.js": "/goldprice24/static/js/787.574895f5.chunk.js",
     "static/media/egypt.png": "/goldprice24/static/media/egypt.c505ba3d508fc439f11c.png",
     "static/media/ingot.png": "/goldprice24/static/media/ingot.3af3d35ca11a1878fc6c.png",
     "index.html": "/goldprice24/index.html",
     "main.a1508167.css.map": "/goldprice24/static/css/main.a1508167.css.map",
-    "main.f219a958.js.map": "/goldprice24/static/js/main.f219a958.js.map",
+    "main.82a1c7fc.js.map": "/goldprice24/static/js/main.82a1c7fc.js.map",
     "787.574895f5.chunk.js.map": "/goldprice24/static/js/787.574895f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1508167.css",
-    "static/js/main.f219a958.js"
+    "static/js/main.82a1c7fc.js"
   ]
 }
