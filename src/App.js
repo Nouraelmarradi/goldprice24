@@ -25,7 +25,7 @@ function App() {
             <Col  md='8' >
               <div className="Switch">
                 <Switch>
-                  <Route path="/prices" component={Prices} />
+                  <Route path="/goldprice24/prices" component={Prices} />
                   <Route path="/chart" component={chart}></Route>
                   <Route path="/FormGoldCalculat" component={FormGoldCalculat} />
                   <Route path="/Converter" component={Converter}></Route>
