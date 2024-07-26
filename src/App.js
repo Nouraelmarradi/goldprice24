@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,HashRouter } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,7 +15,7 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <NavBar />
 <div className="all">
@@ -44,7 +44,7 @@ function App() {
 
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
